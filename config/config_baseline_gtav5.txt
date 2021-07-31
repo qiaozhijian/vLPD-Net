@@ -1,0 +1,50 @@
+[DEFAULT]
+num_points = 4096
+
+dataset_folder = ./benchmark_datasets
+queries_folder = ./generating_queries/pickles
+
+[TRAIN]
+num_workers = 16
+batch_size = 32
+batch_size_limit = 42
+batch_expansion_rate = 1.4
+batch_expansion_th = 0.7
+
+lr = 1e-3
+epochs = 40
+scheduler_milestones = 30
+
+aug_mode = 2
+weight_decay = 1e-3
+eval_simple = True
+
+loss = BatchHardTripletMarginLoss
+normalize_embeddings = False
+margin = 0.2
+swap = True
+lamda = 1
+lamda_reg = 0.001
+lpd_fixed = True
+
+train_file = gta5_training_queries_baseline.pickle
+
+[REGISTARTION]
+batch_size = 30
+epochs = 100
+num_points = 4096
+iter = 1
+overlap = 1.0
+
+[DOMAIN_ADAPT]
+model = FCDor
+lr = 1e-4
+epochs = 30
+scheduler_milestones = 20
+weight_decay = 1e-3
+
+lamda_gd = 0.01
+lamda_d = 0.01
+loss = MSEWithMask
+
+train_file = training_queries_baseline.pickle
