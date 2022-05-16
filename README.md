@@ -19,19 +19,7 @@ To this end, we propose vLPD-Net, which is a novel registration-aided 3D domain 
 ### Citation
 If you find this work useful, please cite:
 ```
-@article{DBLP:journals/corr/abs-2012-05018,
-  author    = {Zhijian Qiao, Hanjiang Hu, Weiang Shi, Siyuan Chen, Zhe Liu and Hesheng Wang},
-  title     = {{A} Registration-aided Domain Adaptation Network for 3D Point Cloud Based Place Recognition},
-  journal   = {CoRR},
-  volume    = {abs/2012.05018},
-  year      = {2020},
-  url       = {https://arxiv.org/abs/2012.05018},
-  archivePrefix = {arXiv},
-  eprint    = {2012.05018},
-  timestamp = {Sat, 02 Jan 2021 15:43:30 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2012-05018.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
+@INPROCEEDINGS{9635878,  author={Qiao, Zhijian and Hu, Hanjiang and Shi, Weiang and Chen, Siyuan and Liu, Zhe and Wang, Hesheng},  booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},   title={A Registration-aided Domain Adaptation Network for 3D Point Cloud Based Place Recognition},   year={2021},  volume={},  number={},  pages={1317-1322},  doi={10.1109/IROS51168.2021.9635878}}
 ```
 
 ### Environment and Dependencies
