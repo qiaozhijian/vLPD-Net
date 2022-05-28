@@ -2,7 +2,7 @@
 
 Our IROS 2021: Registration-aided 3D Point Cloud Learning for Large-Scale Place Recognition.
 
-[Paper](https://arxiv.org/abs/2012.05018) [Video](https://www.bilibili.com/video/BV1W44y1m7jd?from=search&seid=6528890923617632450)
+[Paper](https://arxiv.org/abs/2012.05018) [Video](https://www.youtube.com/watch?v=Nnj9KUXIFns&t=11s)
 <html>
 Author: <a href="https://qiaozhijian.github.io/">Zhijian Qiao<sup>1&#8224</sup>, <a href="https://hanjianghu.github.io/">Hanjiang Hu<sup>1, 2&#8224</sup></a>, Weiang Shi<sup>1</sup>, Siyuan Chen<sup>1</sup>, Zhe Liu<sup>1, 3</sup>, Hesheng Wang<sup>1</sup>.
 
